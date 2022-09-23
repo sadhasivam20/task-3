@@ -1,0 +1,68 @@
+ var biodata =[{
+    "name": "sadhasivam S", 
+    "email": "sadha2040@gmail.com", 
+    "phone": "9003504790", 
+    "date of birth": "10-11-1999", 
+    "nationality": "INDIAN", 
+    "summary": "A summary of sadhasivam S", 
+    "Github url":"https://github.com/sadhasivam20",
+    "location": { 
+    "address": "no.28/19/3, Abul kalam azath street pudhupeetai",
+    "Village" : "vridhachalam taluk", 
+    "postalCode": "606001", 
+    "city": "cuddalore",
+    "state" :"Tamilnadu", 
+    "countryCode": "IND" 
+    }, 
+
+    "objective": "A objective of sadhasivam S", 
+    "carrer objective": { 
+    "Objective": "to be part of orginatizition where i could enchance myskills for devolpment  of organization and myself " 
+    }, 
+    "Skills":{
+        "keywords": "HTML,CSS,Javascript"
+    },
+    "education": { 
+    "institution": "Akshaya college of engineering and technology",  
+    "area": "Coimbatore", 
+    "studyType": "Bachelor", 
+    "startyear": "2017", 
+    "endyear": "2021", 
+    "score": "7.63", 
+    "courses": "Bachelor of engineering Computer Science And Engineering - BE CSE" 
+     
+    }, 
+
+    "12th standard": { 
+    "college": "Infant pre matric higher secondary school", 
+    "area": "periyar nagar", 
+    "year": "2017", 
+    "score": "800" 
+    }, 
+
+    "10th standard": { 
+    "school": "Fatima Matriculation Higher Secondary School", 
+    "area": "Junction road", 
+    "year": "2015", 
+    "score": "431"
+    }, 
+
+    "languages known": { 
+    "language1": "English", 
+    "fluency1": "Native speaker", 
+    "language2": "Tamil", 
+    "fluency2": "Native speaker" 
+    },
+
+    "interests": { 
+    "name": "outdoor game", 
+    "keywords": "running","Gym" 
+    },
+
+    "declaration": { 
+    "declaration": "sadhasivam S,here by declare that the above info is true to rest of my  knowledge " 
+    }
+     
+    }
+]
+console.log(biodata);

@@ -1,0 +1,40 @@
+var employee=[{"Name":"Hari",
+         "age":"23",
+         "email":"hari@gmail.com",
+         "salary":"7000$"},
+
+         {"Name":"raju",
+         "age":"21",
+         "email":"raju@gmail.com",
+         "salary":"2000$"},
+
+         {"Name":"ramu",
+         "age":"22",
+         "email":"ramu@gmail.com",
+         "salary":"4000$"}];
+
+
+//for loop   
+for(i=0;i<employee.length;i++){
+   console.log(employee[i]);          
+} ;
+console.log("...............");
+//for in loop
+
+for( const x in employee){
+    console.log(employee[x]);
+} ;       
+console.log("..............");
+//for of loop
+
+for(let a of employee){
+    console.log(a);
+};
+console.log("..............");
+//for Each loop
+employee.forEach(function()
+{
+    console.log(employee[0]);
+})
+
+
